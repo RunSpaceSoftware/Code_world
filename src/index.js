@@ -3,6 +3,8 @@ function hello() {
 }
 
 function meth() {
-    const cars = ['206','red','100%']
+    let cars = 6;
+    cars += 2;
+    cars++
     document.getElementById('mo').innerHTML = cars;
 }

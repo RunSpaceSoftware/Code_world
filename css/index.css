@@ -4,3 +4,17 @@
     font-size: 100%;
 }
 
+.bt {
+    background-color: black;
+    color: white;
+    border-style: groove;
+    border-radius: 1cm;
+    margin-bottom: 1cm;
+}
+
+body {
+    border-style: groove;
+    border-radius: 1cm;
+    padding: auto;
+    border-width: 4cm;
+}
