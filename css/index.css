@@ -10,6 +10,15 @@
     border-style: groove;
     border-radius: 1cm;
     margin-bottom: 1cm;
+    margin-top: 1cm;
+    width: 100px;
+    transition-duration: 0.5s;
+    height: 25px;
+}
+
+.bt:hover {
+    background-color: white;
+    color: black;
 }
 
 body {
@@ -20,5 +29,11 @@ body {
 }
 
 .mo {
-
+    border-style: solid;
+    border-radius: 0.2cm;
+    border-width: 0.1cm;
+    block-size: 1cm;
+    width: 1cm;
+    padding: auto;
+    margin: auto;
 }
