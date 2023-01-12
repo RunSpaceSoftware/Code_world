@@ -8,7 +8,10 @@ function hello() {
 //and display's it on the screen
 
 function meth(cars) {
-    cars = 6;
-    cars += 2;
+    cars = 2 * 3;
     document.getElementById('mo').innerHTML = cars;
+}
+
+function coke() {
+    alert('Welcome')
 }

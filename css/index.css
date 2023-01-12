@@ -29,11 +29,7 @@ body {
 }
 
 .mo {
-    border-style: solid;
-    border-radius: 0.2cm;
-    border-width: 0.1cm;
     block-size: 1cm;
-    width: 1cm;
     padding: auto;
     margin: auto;
 }
