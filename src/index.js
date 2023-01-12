@@ -6,12 +6,13 @@ function hello() {
 //this function gets 'cars' and when a button
 //is pressed execuits the resalt of the operation
 //and display's it on the screen
-
-function meth(cars) {
-    cars = 2 * 3;
-    document.getElementById('mo').innerHTML = cars;
+function meth(drugs) {
+    drugs = ['meth \n','coke \n','fentyl \n','weed \n']
+    drugs.sort()
+    document.getElementById('mo').innerHTML = drugs;
 }
 
+//makes a pop up massage that says welcome
 function coke() {
     alert('Welcome')
 }
