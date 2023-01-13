@@ -1,6 +1,7 @@
 h1 {
     color: orangered;
     font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* 3*3 Grid */
@@ -14,7 +15,7 @@ h1 {
     font-size: 30px;
     border-width: 5px;
     text-align: center;
-    cursor: pointer;
+    cursor: cell;
 }
 
 /* Reset Button */
@@ -95,4 +96,11 @@ h1 {
     width: 200px;
     height: 50px;
     font-size: larger;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.butt:hover {
+    color: black;
+    background-color: white;
 }
